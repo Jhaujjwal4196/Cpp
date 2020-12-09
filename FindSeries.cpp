@@ -9,19 +9,20 @@ else
 {
     return 1;
 }}
-float Calc(int x, int k){
+float Calc(float x, int k){
     return(pow(x,k)/Factorial(k));
 }
 
 main(){
 
     
-    int n,x;
-    float sum=0;
+    int n;
+    float x,sum=0;
     cout<<"Please provide the required number of tems you wanna add:\t";
     cin>>n;
     cout<<"Please Provide the value of x\t";
     cin>>x;
+    
     for(int i=0;i<n;i++){
         int k=2*i;
         if(i==0){
