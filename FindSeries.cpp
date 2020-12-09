@@ -1,3 +1,5 @@
+// the sum of the series [ 1-X^2/2!+X^4/4!- .........]
+
 #include <iostream>
 #include <cmath>
 using namespace std;
