@@ -12,6 +12,8 @@ else
     return 1;
 }}   
 // this is justr an exa,mple
+
+// jha is  gio
 float Calc(float x, int k){
     return(pow(x,k)/Factorial(k));
 }
