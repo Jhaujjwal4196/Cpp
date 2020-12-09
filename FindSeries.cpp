@@ -10,7 +10,8 @@ return (n*Factorial(n-1));
 else
 {
     return 1;
-}}
+}}   
+// this is justr an exa,mple
 float Calc(float x, int k){
     return(pow(x,k)/Factorial(k));
 }
