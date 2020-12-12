@@ -18,7 +18,7 @@ main(){
     char *r= NULL;
     double *s= nullptr;
 
-
+//Sizeof pointer is alwways same i.e. 8 in most of the computers...anfd it;s also 4 in some of the computrers..it's primarily dependent on the type of compiler used during function..
 
     cout<<sizeof(p)<<endl;
     cout<<sizeof(r)<<endl;
