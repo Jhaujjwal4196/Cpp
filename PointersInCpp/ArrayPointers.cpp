@@ -25,7 +25,7 @@ main(){
 
     //These are the things yhat needs to known in array pointers..
 
-
+    //cout<<p<<endl;
 
 
 }

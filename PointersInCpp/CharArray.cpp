@@ -21,5 +21,6 @@ main(){
       cout<<pr<<"\t"<<endl;
 
       //char pointer behaves differently with c++...it prints the value stored in that arrayb or char arther than prnting the addresss...
+      cout<<c<<endl;
     
 }
