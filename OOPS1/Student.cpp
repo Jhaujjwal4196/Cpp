@@ -8,8 +8,20 @@ class Student{
     int age;
     int rollNum;
     string name;
+
+    protected:
+    int regNo;
    
    public:
+   Student(int age,int rollNum,string name, int regNo){
+       this->age=age;
+       this->rollNum=rollNum;
+       this->name=name;
+       this->regNo=regNo;
+   }
+   int getRegNo(){
+       return regNo;
+   }
    void setAge(int age){
    if (age<0){
        cout<<"Sorry You can't set the age below 0"<<endl;
