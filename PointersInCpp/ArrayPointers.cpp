@@ -10,7 +10,7 @@ main(){
        cout<<a<<endl;
        cout<<p<<endl;
 
-       //Basically abpve stattement claerifies that array a or simply the pointer to array a denotes the same thing..Infact they boh are quite similart in properties.. only similar not exactly the same..so mind it..
+      //Basically abpve stattement claerifies that array a or simply the pointer to array a denotes the same thing..Infact they boh are quite similart in properties.. only similar not exactly the same..so mind it..
     cout<<a+1<<endl;
     cout<<p+1<<endl;
     
